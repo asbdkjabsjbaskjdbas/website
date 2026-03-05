@@ -7,11 +7,14 @@ body{
     background: linear-gradient(135deg,#ff9a9e,#fecfef);
     font-family: Arial;
     overflow:hidden;
+    padding:20px;
 }
 
 .container{
     text-align:center;
     animation:floating 4s ease-in-out infinite;
+    max-width:600px;
+    width:100%;
 }
 
 h1{
@@ -38,13 +41,11 @@ p{
     box-shadow:0 0 20px #ff4d6d;
 }
 
-
 @keyframes floating{
 0%{transform:translateY(0);}
 50%{transform:translateY(-15px);}
 100%{transform:translateY(0);}
 }
-
 
 .love{
     position:absolute;
@@ -62,4 +63,26 @@ opacity:1;
 transform:translateY(100vh);
 opacity:0;
 }
+}
+
+/* RESPONSIVE HP */
+@media (max-width:600px){
+
+h1{
+    font-size:32px;
+}
+
+p{
+    font-size:15px;
+}
+
+.btn{
+    font-size:16px;
+    padding:10px 22px;
+}
+
+.container{
+    padding:10px;
+}
+
 }
