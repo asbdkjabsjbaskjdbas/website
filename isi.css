@@ -32,3 +32,25 @@ h2{
     color:#ff4d6d;
     margin-top:20px;
 }
+
+@media (max-width:600px){
+
+.box{
+    padding:25px;
+    margin:20px;
+}
+
+h1{
+    font-size:24px;
+}
+
+p{
+    font-size:14px;
+}
+
+h2{
+    font-size:18px;
+}
+
+}
+
